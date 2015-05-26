@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
 <head>
+  <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,700' rel='stylesheet' type='text/css'>
 <style>
 
 
@@ -12,6 +13,8 @@
 
 body {
   text-align: center;
+  background-image: url(http://i.imgur.com/ye5mXHs.jpg);
+  
 }
 .box {
   width:100px;
@@ -20,7 +23,7 @@ body {
   display: inline-block;
   vertical-align: top;
   margin-top: 10px;
-  background-image:none;
+  background-color:rgb(153, 0, 153);
   position: relative;
 }
 
@@ -63,8 +66,17 @@ body {
     position: relative;
 }
 
-h1 {
+h2 {
+  color:rgb(25, 80, 108);
+  font-size: 24px;
+  font-family: 'Titillium Web', sans-serif;
+  text-shadow: 2px,2px,1px;
+}
+h2.hover {
   color:white;
+  font-size: 24px;
+  font-family: 'Titillium Web', sans-serif;
+  text-shadow: 2px,2px,1px;
 }
 </style>
 <body>
@@ -73,16 +85,16 @@ h1 {
 <h3>Hover a box</h3>
 
 <div class="box overlay limegreen">
-  <h1></h1>Home</h1>
+  <h2>Home</h2>
 </div>
 <div class="box overlay magenta">
-    <h1>Contact</h1>
+    <h2>Contact</h2>
 </div>
 <div class="box overlay orange">
-    <h1>Resume</h1>
+    <h2>Resume</h2>
 </div>
 <div class="box overlay teal">
-    <h1>Portfolio</h1>
+    <h2>Portfolio</h2>
 </div>
 
 </body>
