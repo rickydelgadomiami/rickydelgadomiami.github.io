@@ -1,0 +1,20 @@
+<!doctype html>
+<head>
+</head>
+<body>
+
+ <a href="http://www.w3schools.com/html/" target="_self">HTML5 tutorial!</a> 
+ <a href="http://www.w3schools.com/html/" target="_window">HTML5 tutorial!</a> 
+ <a href="http://www.w3schools.com/html/" target="_new">HTML5 tutorial!</a> 
+ <a href="http://www.w3schools.com/html/" target="_parent">HTML5 tutorial!</a> 
+
+target="window"
+target="_new"
+target="_parent"
+
+<a href="mailto:someone@example.com?Subject=Hello%20again">Send Mail</a>
+<a href="mailto:someone@example.com">Send Mail</a>
+<a href="mailto:someone@example.com?cc=someoneelse@example.com&bcc=andsomeoneelse@example.com&subject=Summer%20Party&body=You%20are%20invited%20to%20a%20big%20summer%20party!">Send mail!</a>
+<a href="#mailto:someone@example.com">Send mail</a> 
+
+</body>
