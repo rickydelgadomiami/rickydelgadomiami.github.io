@@ -135,9 +135,18 @@ ul li i:hover {
 }
 </style>
 
+
 </head>
 
 <body>
+	<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
     <div class="nav">
       <nav class="fixed-nav-bar">
         <ul class="pull-right">
@@ -159,7 +168,8 @@ ul li i:hover {
         </div>
     </div>
 <section id="contactme">
-        <p> IF YOU HAVE ANY QUESTIONS, REQUESTS, PROJECTS, OR EVEN A JOKE TO SHARE FEEL FREE TO CONTACT ME!
+        <p> IF YOU HAVE ANY QUESTIONS, REQUESTS, PROJECTS, OR EVEN A JOKE TO SHARE FEEL FREE TO CONTACT ME AT MY
+        <a href="mailto:rickydelgadojunior@gmail.com?Subject=Howdy%20Partner!" target="_top">Send me an E-MAIL!</a>
 	</section>
 	
 <section id="snapwidget">
@@ -169,6 +179,13 @@ ul li i:hover {
         frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:500px; height:125px">
 	</iframe>
 </section>
+
+<section id="facebookwidget">
+<div class="fb-comments" 
+data-href="http://rickydelgadomiami.me/contact.html" 
+data-width="500" data-numposts="3">
+	</div>	
+       </section>
 <nav>
 	<div style="font-size: 30px; text-align: center;">
     <a href="https://www.facebook.com/rickydelgadojunior"> <i class="fa fa-facebook-official"></i></a>
