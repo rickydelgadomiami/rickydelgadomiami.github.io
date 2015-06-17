@@ -30,6 +30,16 @@ body {
         font-weight: 300;
         margin:auto;
 }
+
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 50px;
+  background-color: #00a087;
+}
         
 .nav a {
   color: #5a5a5a;
@@ -85,14 +95,14 @@ body {
 
 <body>
     <div class="nav">
-      <div class="container">
+      <nav class="fixed-nav-bar">
         <ul class="pull-right">
           <li><a href="/about.html">About Me</a></li>
           <li><a href="/contact.html">Contact Me</a></li>
           <li><a href="/resume.html">Resume</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
         </ul>
-      </div>
+      </nav>
     </div>
 
 <section id="logo">
