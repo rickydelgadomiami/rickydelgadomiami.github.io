@@ -1,2 +1,35 @@
 <!doctype html>
-<title>Ricky Delgado Graphic Design</title>
+<head>
+  <title>Ricky Delgado Graphic Design</title>
+  
+  
+  <style>
+  
+  
+  
+  <style>
+
+
+
+</head>
+
+<body>
+<div id="site">
+
+    <div id="header">
+        <img class="center" src="http://i.imgur.com/y4c2U8T.png"/>    
+    </div>
+
+    <div id="mainNav">
+        <li><a href="#">one</a></li>
+        <li><a href="#">two</a></li>
+        <li><a href="#">three</a></li>
+        <li><a href="#">four</a></li>
+    </div>
+
+</div>
+
+</body>
+</html>
+
+
