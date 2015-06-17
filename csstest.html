@@ -132,18 +132,38 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-
-#logo {
-  margin:auto
-  position:fixed
-  
-  
+#headerwrap {
+    position: relative;
+    width: 998px;
+    height: 100px;
+    margin: 0 auto;
+    pointer-events: none;
+}
+#header{
+    position: fixed;
+    top: 0;
+    width: 998px;
+    margin: 0;
+    background: url('../images/top.png') no-repeat;
+    height:100px;
+    z-index: 1;
+    pointer-events: none;
 }
 </style>
+<script type="text/javascript">    
+    var clientWidth = document.documentElement.clientWidth;
+    document.getElementById('headerwrap').style.width = clientWidth + "px";
+
+    var padding = 50;
+    document.getElementById('header').style.width = (clientWidth - (padding * 2)) + "px";
+    document.getElementById('header').style.left = padding + "px";
+</script>
 <body>
-  <section id="logo"><a href="/index.html"></section>
+  <div id="headerwrap">
+    <a href="/index.html"></section>
   <img src="http://i.imgur.com/y4c2U8T.pngf" alt="Website Logo">
-<nav><div class="box overlay limegreen">
+<div id="header">
+  <nav><div class="box overlay limegreen">
   <h2>  <a href="http://rickydelgadomiami.me/">Home</a>  </h2>
 </div>
 <div class="box overlay magenta">
@@ -156,8 +176,9 @@ h1 {
     <h2> <a href="http://rickydelgadomiami.me/portfolio">Portfolio</a> </h2>
 </div>
 </nav>
+</div>
+</div>
 
-<section id="headertitle"> 
 <h1>Ricardo Delgado Graphic Design</h1> 
 </section>
 
